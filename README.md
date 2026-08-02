@@ -1,6 +1,10 @@
 # Angular 22 Signal Forms Demo
 
-A small demonstration project showcasing the new **Signal Forms** feature introduced in **Angular 21**.
+A small demonstration project showcasing the new **Signal Forms** feature introduced in **Angular 22**.
+
+<img width="1920" height="913" alt="image" src="https://github.com/user-attachments/assets/86b574d9-0fa9-4b84-b4f2-84c1c2f1c64b" />
+
+
 
 ## Overview
 
@@ -10,7 +14,6 @@ This project provides a simple, focused example of how to build and manage forms
 
 * Basic Signal Forms setup
 * Form state management using signals
-* Validation examples
 * Clean and minimal implementation for easy understanding
 
 ## Purpose
