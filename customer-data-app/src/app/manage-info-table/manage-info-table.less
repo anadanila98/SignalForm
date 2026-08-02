@@ -1,0 +1,77 @@
+:host {
+  display: block;
+  width: 700px;
+  flex-shrink: 0;
+}
+
+.customers-table {
+  width: 100%;
+  min-width: 650px;
+
+  border-collapse: separate;
+  border-spacing: 0;
+
+  background: #fff;
+
+  border: 2px solid #E65100;
+  border-radius: 16px;
+  overflow: hidden;
+
+  box-shadow:
+    0 6px 12px rgba(230, 81, 0, 0.15),
+    0 12px 28px rgba(230, 81, 0, 0.20);
+}
+
+.customers-table thead th {
+  background: #E65100;
+  color: #fff;
+
+  padding: 16px 20px;
+  text-align: left;
+  font-size: 17px;
+  font-weight: 600;
+
+  border-right: 1px solid #BF360C;
+}
+
+.customers-table thead th:last-child {
+  border-right: none;
+}
+
+.customers-table tbody td {
+  padding: 14px 20px;
+  font-size: 16px;
+
+  border-top: 1px solid #E65100;
+  border-right: 1px solid #E65100;
+}
+
+.customers-table tbody td:last-child {
+  border-right: none;
+}
+
+.customers-table tbody tr:nth-child(even) {
+  background: #FFF3E0;
+}
+
+.customers-table tbody tr:hover {
+  background: #FFE0B2;
+  transition: background-color .2s ease;
+}
+
+/* Rounded corners */
+.customers-table thead tr th:first-child {
+  border-top-left-radius: 14px;
+}
+
+.customers-table thead tr th:last-child {
+  border-top-right-radius: 14px;
+}
+
+.customers-table tbody tr:last-child td:first-child {
+  border-bottom-left-radius: 14px;
+}
+
+.customers-table tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 14px;
+}

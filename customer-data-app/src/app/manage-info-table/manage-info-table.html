@@ -1,0 +1,21 @@
+@if (records().length > 0) {
+  <table class="customers-table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Surname</th>
+        <th>Telephone</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      @for (record of records(); track $index) {
+        <tr>
+          <td>{{ record.name }}</td>
+          <td>{{ record.surname }}</td>
+          <td>{{ record.telephone }}</td>
+        </tr>
+      }
+    </tbody>
+  </table>
+}

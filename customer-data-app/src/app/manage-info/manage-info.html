@@ -1,0 +1,18 @@
+<form [formRoot]="manageInfoForm">
+  <div>
+    <label for="name">Name</label>
+    <input id="name" type="text" [formField]="manageInfoForm.name">
+  </div>
+
+  <div>
+    <label for="surname">Surname</label>
+    <input id="surname" type="text" [formField]="manageInfoForm.surname">
+  </div>
+
+  <div>
+    <label for="telephone">Telephone</label>
+    <input id="telephone" type="tel" [formField]="manageInfoForm.telephone">
+  </div>
+  <button type="button" (click)="save()">Save</button>
+  <button type="button" (click)="reset()">Reset</button>
+</form>

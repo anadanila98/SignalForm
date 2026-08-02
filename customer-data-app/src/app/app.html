@@ -1,0 +1,9 @@
+<div class="container">
+  <app-manage-info
+    (saveRecord)="addRecord($event)">
+  </app-manage-info>
+
+  <app-manage-info-table
+    [records]="records">
+  </app-manage-info-table>
+</div>

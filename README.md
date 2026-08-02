@@ -1,4 +1,4 @@
-# Angular 21 Signal Forms Demo
+# Angular 22 Signal Forms Demo
 
 A small demonstration project showcasing the new **Signal Forms** feature introduced in **Angular 21**.
 
@@ -19,7 +19,7 @@ The goal of this project is to demonstrate the fundamentals of Signal Forms with
 
 ## Requirements
 
-* Angular 21
+* Angular 22
 * Node.js (latest LTS recommended)
 
 ## Getting Started
